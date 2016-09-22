@@ -1,0 +1,24 @@
+{
+  "name": "jiraiya",
+  "version": "1.0.0",
+  "description": "jira slackbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danggrianto/jiraiya.git"
+  },
+  "keywords": [
+    "jira",
+    "slacbot",
+    "meetme"
+  ],
+  "author": "daniel anggrianto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danggrianto/jiraiya/issues"
+  },
+  "homepage": "https://github.com/danggrianto/jiraiya#readme"
+}
