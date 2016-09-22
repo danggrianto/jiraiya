@@ -1,28 +1,34 @@
 {
-  "name": "jiraiya",
-  "version": "1.0.0",
-  "description": "jira slackbot",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/danggrianto/jiraiya.git"
-  },
-  "keywords": [
-    "jira",
-    "slacbot",
-    "meetme"
-  ],
-  "author": "daniel anggrianto",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/danggrianto/jiraiya/issues"
-  },
-  "homepage": "https://github.com/danggrianto/jiraiya#readme",
-  "dependencies": {
-    "slackbots": "^0.5.2",
-    "sqlite3": "^3.1.4"
-  }
+    "name": "jiraiya",
+    "version": "1.0.0",
+    "description": "jira slackbot",
+    "main": "index.js",
+    "scripts": {
+        "start": "node bin/bot.js",
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/danggrianto/jiraiya.git"
+    },
+    "keywords": [
+        "jira",
+        "slacbot",
+        "meetme"
+    ],
+    "main": "lib/jiraiya.js",
+    "bin": {
+        "norrisbot": "bin/bot.js"
+    },
+    "author": "daniel anggrianto",
+    "email": "d.anggrianto@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/danggrianto/jiraiya/issues"
+    },
+    "homepage": "https://github.com/danggrianto/jiraiya#readme",
+    "dependencies": {
+        "slackbots": "^0.5.2",
+        "sqlite3": "^3.1.4"
+    }
 }
