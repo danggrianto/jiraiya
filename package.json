@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/danggrianto/jiraiya#readme",
   "dependencies": {
+    "request": "^2.75.0",
     "slackbots": "^0.5.2",
     "sqlite3": "^3.1.4"
   },
