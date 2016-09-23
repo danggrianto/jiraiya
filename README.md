@@ -6,6 +6,7 @@
 
 # TODO
 - get my issues
+- get username
 - action of the issues
 - DM to user
 
