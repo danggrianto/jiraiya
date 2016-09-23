@@ -8,3 +8,7 @@
 - get my issues
 - action of the issues
 - DM to user
+
+# issues
+- private channel not working
+- DM not working
