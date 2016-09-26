@@ -9,6 +9,7 @@
  */
 
 var Jiraiya = require('../lib/jiraiya');
+var config = require('config');
 
 /**
  * Environment variables used to configure the bot:
@@ -17,8 +18,8 @@ var Jiraiya = require('../lib/jiraiya');
  *      token at the following url: https://<yourorganization>.slack.com/services/new/bot (Mandatory)
  *  BOT_NAME: the username you want to give to the bot within your organisation.
  */
-var token = process.env.BOT_API_KEY;
-var name = process.env.BOT_NAME;
+var token = config.get('slack.apiKey');
+var name = config.get('slack.botName');
 
 var jiraiya = new Jiraiya({
     token: token,

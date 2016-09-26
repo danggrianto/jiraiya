@@ -1,0 +1,11 @@
+{
+  "slack": {
+    "apiKey": "slackbot api key",
+    "botName": "Jiraiya"
+  },
+  "jira": {
+    "url": "jira url",
+    "username": "jira username",
+    "password": "jira password"
+  }
+}
