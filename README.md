@@ -1,8 +1,16 @@
-# Requirements
+# Jiraiya
 
-## Environment Variables
+Jira slackbot
 
-- `SLACK_BOT_TOKEN`: token for slackbot
+# How to install
+- clone this repository
+- `cd` to the repository
+- `npm install`
+- copy `config\default.json` to `config\production.json`
+- set configuration in `config\production.json` accordingly
+- start the server with `NODE_ENV=production npm start`
+
+
 
 # Feature
 
@@ -15,6 +23,7 @@ Jiraiya will print all issue assigned to the person requested the service. To do
 
 # TODO
 - DM to user
+- supervisor setting
 
 # issues
 - private channel not working
